@@ -10,19 +10,19 @@
     @keyframes change {
         0%{
             
-            background-image: url('/img/girl-1440x2560-fitness-exercise-gym-dumbbells-workout-sportswear-11190.jpg');
+            background-image: url('../img/girl-1440x2560-fitness-exercise-gym-dumbbells-workout-sportswear-11190.jpg');
         }
         25%{
-            background-image: url('/img/jym1.jfif');
+            background-image: url('../img/jym1.jfif');
         }
         50%{
-            background-image: url('/img/jym3.jfif');
+            background-image: url('../img/jym3.jfif');
         }
         75%{
-            background-image: url('/img/photo-1485727749690-d091e8284ef3.jpeg');
+            background-image: url('../img/photo-1485727749690-d091e8284ef3.jpeg');
         }
         100%{
-            background-image: url('/img/article.jpg');
+            background-image: url('../img/article.jpg');
         }
     }
     .left {
