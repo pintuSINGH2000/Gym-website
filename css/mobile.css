@@ -1,0 +1,117 @@
+@media screen and (max-width:500px){
+    body{
+        background-image: none;
+        animation: change 20s infinite;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+        filter: invert();
+        background-size: 375px 812px;
+    }
+    @keyframes change {
+        0%{
+            
+            background-image: url('/img/girl-1440x2560-fitness-exercise-gym-dumbbells-workout-sportswear-11190.jpg');
+        }
+        50%{
+            background-image: url('/img/jym1.jfif');
+        }
+        100%{
+            background-image: url('/img/jym3.jfif');
+        }
+        150%{
+            background-image: url('/img/photo-1485727749690-d091e8284ef3.jpeg');
+        }
+        200%{
+            background-image: url('/img/article.jpg');
+        }
+    }
+    .left {
+
+        display:block;
+        top:20px;
+        left:1%;
+    }
+
+    .mid {
+        
+        display:flex;
+        width:50%;
+        margin: 10px 20px 5px 70px;
+        white-space: nowrap;
+    }
+
+    .right {
+        display:inline-block;
+        right:15px;
+        top:70px;
+        position:absolute;
+    }
+    .navbar{
+        right: 0%;
+        display:flex;
+    }
+    .navbar li{
+        font-size:20px;
+    }
+    .navbar li a{
+        text-decoration:none;
+        color:black;
+        padding: 2px 4px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration:underline;
+        color:rgb(169, 71, 41);
+        padding: 5px 5px;
+    }
+    .left img{
+           width:100px;
+           filter: invert();
+    }
+    .left div{
+        text-align: center;
+        line-height: 20px;
+        font-size:15px;
+    }
+    .btn{
+        margin:0px 10px;
+        background-color:black;
+        color: white;
+        padding:4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(74, 67, 67);
+    }
+    .container{
+        margin:100px 2px;
+        padding: 35px;
+        width:80%;
+        border-radius:10px;
+    
+    }
+    .form-group input{
+        text-align: center;
+        display:block;
+        width:250px;
+        padding:4px;
+        font-size: 20px;
+        border:2px solid black;
+        margin:11px auto;
+        border-radius:5px;
+    }
+    .container h1{
+        text-align:center;
+    
+    }
+    .container button{
+        display:block;
+        width:30%;
+        margin:auto;
+        padding:10px 10px;
+        font-size:18px;          
+    }
+    
+}
