@@ -1,7 +1,7 @@
 @media screen and (max-width:500px){
     body{
         background-image: none;
-        animation: change 30s infinite;
+        animation: change 25s infinite;
         animation-timing-function: linear;
         animation-fill-mode: both;
         filter: invert();
@@ -12,17 +12,21 @@
             
             background-image: url('../img/girl-1440x2560-fitness-exercise-gym-dumbbells-workout-sportswear-11190.jpg');
         }
-        25%{
+        20%{
             background-image: url('../img/jym1.jfif');
         }
-        50%{
+        40%{
             background-image: url('../img/jym3.jfif');
         }
-        75%{
+        60%{
             background-image: url('../img/photo-1485727749690-d091e8284ef3.jpeg');
         }
-        100%{
+        80%{
             background-image: url('../img/article.jpg');
+        }
+        100%{
+            
+            background-image: url('../img/girl-1440x2560-fitness-exercise-gym-dumbbells-workout-sportswear-11190.jpg');
         }
     }
     .left {
