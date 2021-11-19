@@ -1,7 +1,7 @@
 @media screen and (max-width:500px){
     body{
         background-image: none;
-        animation: change 20s infinite;
+        animation: change 30s infinite;
         animation-timing-function: linear;
         animation-fill-mode: both;
         filter: invert();
@@ -12,16 +12,16 @@
             
             background-image: url('/img/girl-1440x2560-fitness-exercise-gym-dumbbells-workout-sportswear-11190.jpg');
         }
-        50%{
+        25%{
             background-image: url('/img/jym1.jfif');
         }
-        100%{
+        50%{
             background-image: url('/img/jym3.jfif');
         }
-        150%{
+        75%{
             background-image: url('/img/photo-1485727749690-d091e8284ef3.jpeg');
         }
-        200%{
+        100%{
             background-image: url('/img/article.jpg');
         }
     }
