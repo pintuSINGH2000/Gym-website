@@ -12,11 +12,8 @@
             
             background-image: url('../img/girl-1440x2560-fitness-exercise-gym-dumbbells-workout-sportswear-11190.jpg');
         }
-        25%{
+        50%{
             background-image: url('../img/photo-1485727749690-d091e8284ef3.jpeg');
-        }
-        75%{
-            background-image: url('../img/article.jpg');
         }
         100%{
             
